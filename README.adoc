@@ -1,0 +1,85 @@
+= Materials for Domain-Driven Design and Event-Driven Microservices Online Course
+
+
+== Syllabus
+
+New architectural paradigms like microservices and evolutionary architecture, as well as the challenges associated with managing data and transactional contexts in distributed systems, have generated a renewed interest in disciplined software design and modular decomposition strategies. We know that the secret to obtaining the benefits of these architectures is getting the boundaries right, both at the team and the component/service level, and then keeping them right as the software continues to evolve! A key reason for getting the boundaries right is that it allows us to create a unified and ubiquitous language within the bounded contexts those boundaries enclose, allowing the business and engineers to have productive and coherent conversations.
+
+Fortunately, there is a mature, battle-tested approach to domain modeling and system decomposition that is a perfect compliment to these architectures: Domain-Driven Design (DDD). In this course, we’ll leverage an exemplar business domain, that of a pizza delivery store, to illustrate DDD-based decomposition strategies, data architecture patterns, and implementations.
+
+=== Prerequisites and Helpful Background:
+
+* Basic familiarity with Domain-Driven Design concepts can ease your understanding of the course material. I recommend reading https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/[_Domain-Driven Design Distilled_] by Vaughn Vernon to get a quick, 101-level overview.
+* We will leverage multiple technical architecture concepts in this course. Vaughn Vernon provides a great overview of them in https://www.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/ch04.html[Chapter 4 of _Implementing Domain-Driven Design_].
+* Understanding Test-Driven Development is key to programming exercises we’ll complete. https://www.oreilly.com/library/view/test-driven-development/0321146530/[_Test-Driven Development: By Example_] is a classic treatment of these concepts. You may also find https://www.oreilly.com/library/view/growing-object-oriented-software/9780321574442/[_Growing Object-Oriented Software, Guided by Tests_] a nice contextual treatment of TDD, mock objects, and object-oriented design.
+* We will use the Java programming language, as well as testing libraries such as https://junit.org/[JUnit], https://site.mockito.org/[Mockito], and http://joel-costigliola.github.io/assertj/[AssertJ]. You should be comfortable with Java programming and automated testing libraries.
+* Familiarity with Git and GitHub will be required. If you need to brush up your Git(Hub) skills, this https://www.oreilly.com/library/view/git-and-github/9781789137293/[Complete Git and GitHub Masterclass] can be helpful.
+
+
+=== Schedule:
+
+==== Day One:
+
+==== Class Introduction
+
+* Intro to the Course
+* Intro to the Instructor
+* Class Logistics
+* Class Outline
+
+==== Why do we need DDD?
+
+==== What is Ubiquitous Language and why is it so important?
+
+**Open Q&A and Class Discussion:** Why DDD / Ubiquitous Language
+
+**Break** 
+
+==== DDD 101 - Strategic Design: Bounded Contexts, Context Mapping, Subdomains
+
+**Open Q&A and Class Discussion:** Strategic Design 
+==== DDD 101 - Tactical Design: Aggregates, Entities, Value Objects, Domain Events, Application Services, Domain Services
+
+**Open Q&A and Class Discussion:** Tactical Design 
+
+==== Overview of Event Storming
+
+**Break**
+
+==== Introduction to the Pizza Shop domain
+
+**Open Q&A and Class Discussion:** Event Storming and Pizza Shop Domain 
+
+**Student Activity:** Pizza Shop Event Storming exercise
+
+**Interactive Screen Share:** Pizza Shop Event Storming solution 
+
+==== Discuss how Event Storm concepts translate into DDD concepts, User Stories, and TDD code
+
+**Open Q&A and Class Discussion:** Day One AMA
+
+==== Day Two:
+
+==== Day One Recap
+
+==== DDD and Technical Architectures
+
+**Break**
+
+**verview of the Pizza Shop Coding Exercise Environment**
+
+**Student Activity:** Lab 1: TDD Aggregate Root - Create Kitchen Commands with Business Logic and Invariants 
+
+**Student Activity: Lab 2:** TDD Aggregate Root - Create and Publish Kitchen Domain Events 
+
+**Student Activity: Lab 3:** TDD Aggregate Repository - Create Kitchen Repositories and Add Domain Events
+
+**Student Activity: Lab 4:** TDD Aggregate Repository - Rehydrate Kitchen Aggregates by Reference 
+
+**Student Activity: Lab 5:** TDD Application Service - Expose Kitchen Business Interface and Implement Transactions 
+
+**Student Activity: Lab 6:** TDD Policy - Subscribe to a Kitchen Domain Event from within an Aggregate and Create CQRS View 
+
+**Student Activity: Lab 7:** TDD Policy - Subscribe to a Kitchen Domain Event from an Adjacent Aggregate and Update State 
+
+**Open Q&A and Class Discussion:** Day Two AMA 

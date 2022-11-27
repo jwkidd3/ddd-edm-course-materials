@@ -1,0 +1,19 @@
+= Resource Links from March 2019 Safari Online Class
+
+* https://realtimeboard.com/app/board/o9J_kzSVCZM=/[Pizza Shop Event Storm Solution]
+* https://realtimeboard.com/app/board/o9J_kyYPn00=/[Scratch Board for Mob Event Storm]
+* https://github.com/mstine/pizza-shop-example/tree/3.0-components[Pizza Shop with Components and Anti-Corruption Layers]
+* https://github.com/mstine/pizza-shop-example/tree/4.0-jdbc[Pizza Shop with JDBC Repository Adapters and H2 DB]
+* https://github.com/mstine/kafka-event-log[Proof of Concept of Kafka-based EventLog for Pizza Shop]
+* https://github.com/ddd-edm-online-course/2019-03-06-oreilly-online-trng[COMPLETED LAB SOLUTIONS!]
+* https://scs-architecture.org/[Self-Contained Systems]
+* http://c4model.com/[C4 Model for Software Architecture]
+* https://www.confluent.io/blog/data-dichotomy-rethinking-the-way-we-treat-data-and-services/[Microservices Blog Series from Confluent... discusses ES/CQRS]
+
+== Videos Related to Legacy Modernization
+
+* https://www.youtube.com/watch?v=s8ujrfPaFVM
+* https://www.youtube.com/watch?v=VWefNT8Lb74
+* https://www.youtube.com/watch?v=by8SdfF56vI
+* https://www.youtube.com/watch?v=jx0Qc1TJK30
+* https://www.youtube.com/watch?v=neL3OQ1GRhY
