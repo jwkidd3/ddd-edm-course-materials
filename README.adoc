@@ -16,67 +16,7 @@ Fortunately, there is a mature, battle-tested approach to domain modeling and sy
 * Familiarity with Git and GitHub will be required. If you need to brush up your Git(Hub) skills, this https://www.oreilly.com/library/view/git-and-github/9781789137293/[Complete Git and GitHub Masterclass] can be helpful.
 
 
-=== Schedule:
 
-==== Day One:
-
-==== Class Introduction
-
-* Intro to the Course
-* Intro to the Instructor
-* Class Logistics
-* Class Outline
-
-==== Why do we need DDD?
-
-==== What is Ubiquitous Language and why is it so important?
-
-**Open Q&A and Class Discussion:** Why DDD / Ubiquitous Language
-
-**Break** 
-
-==== DDD 101 - Strategic Design: Bounded Contexts, Context Mapping, Subdomains
-
-**Open Q&A and Class Discussion:** Strategic Design 
-==== DDD 101 - Tactical Design: Aggregates, Entities, Value Objects, Domain Events, Application Services, Domain Services
-
-**Open Q&A and Class Discussion:** Tactical Design 
-
-==== Overview of Event Storming
-
-**Break**
-
-==== Introduction to the Pizza Shop domain
-
-**Open Q&A and Class Discussion:** Event Storming and Pizza Shop Domain 
-
-**Student Activity:** Pizza Shop Event Storming exercise
-
-**Interactive Screen Share:** Pizza Shop Event Storming solution 
-
-==== Discuss how Event Storm concepts translate into DDD concepts, User Stories, and TDD code
-
-**Open Q&A and Class Discussion:** Day One AMA
-
-==== Day Two:
-
-==== Day One Recap
-
-==== DDD and Technical Architectures
-
-**Break**
-
-**verview of the Pizza Shop Coding Exercise Environment**
-
-**Student Activity:** Lab 1: TDD Aggregate Root - Create Kitchen Commands with Business Logic and Invariants 
-
-**Student Activity: Lab 2:** TDD Aggregate Root - Create and Publish Kitchen Domain Events 
-
-**Student Activity: Lab 3:** TDD Aggregate Repository - Create Kitchen Repositories and Add Domain Events
-
-**Student Activity: Lab 4:** TDD Aggregate Repository - Rehydrate Kitchen Aggregates by Reference 
-
-**Student Activity: Lab 5:** TDD Application Service - Expose Kitchen Business Interface and Implement Transactions 
 
 **Student Activity: Lab 6:** TDD Policy - Subscribe to a Kitchen Domain Event from within an Aggregate and Create CQRS View 
 
